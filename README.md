@@ -1,5 +1,5 @@
 # bashscript_example
-``
+```
 (( )) [[ ]] [ ] { }
 echo $(var//Z/L}
 with all the variations: ${var# and ${var%
@@ -71,4 +71,4 @@ http://mywiki.wooledge.org/BashPitfalls#for_i_in_.24.28ls_.2A.mp3.29
 Bracket uses
 https://stackoverflow.com/questions/2188199/how-to-use-double-or-single-brackets-parentheses-curly-braces
 
-``
+```
