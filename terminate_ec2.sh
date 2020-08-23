@@ -1,5 +1,6 @@
 #!/bin/bash
-AWS_DEFAULT_OUTPUT=json
+
+
 readarray FILES <<< "$(aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId]' --filters Name=instance-state-name,Values=running --output text)"
 
 for inst in ${FILES[@]} 
